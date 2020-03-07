@@ -1,0 +1,31 @@
+body {
+  background: rgb(123, 0, 139);  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, rgb(109, 69, 110));  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, rgb(56, 1, 52), rgb(107, 38, 98)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#time-holder {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 15vw;
+  color: rgb(247, 247, 247);
+  padding-top: 15vh;
+  transition: 0.5s;
+}
+
+#time-holder:hover{
+  color: rgb(255, 255, 255);
+  font-size: 17vw;
+}
+
+.button-controller {
+  font-size: 3vw;
+  color: rgb(235, 187, 235);
+  
+  transition: 0.3s;
+}
+
+.button-controller:hover {
+  color: rgb(255, 255, 255);
+  
+  font-size: 4vw;
+}
