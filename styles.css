@@ -6,21 +6,37 @@ background: linear-gradient(to bottom, rgb(56, 1, 52), rgb(107, 38, 98)); /* W3C
 
 #time-holder {
   font-family: 'Roboto Mono', monospace;
-  font-size: 15vw;
+  font-size: 10vw;
   color: rgb(247, 247, 247);
-  padding-top: 15vh;
+  padding-top: 4vh;
+
   transition: 0.5s;
 }
+#time-holder-kiri {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 5vw;
+  color: rgb(247, 247, 247);
+  padding-top: -10vh;
 
+  transition: 0.5s;
+}
+#time-holder3 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 5vw;
+  color: rgb(247, 247, 247);
+  padding-top: -10vh;
+
+  transition: 0.5s;
+}
 #time-holder:hover{
   color: rgb(255, 255, 255);
-  font-size: 17vw;
+  font-size: 12vw;
 }
 
 .button-controller {
   font-size: 3vw;
   color: rgb(235, 187, 235);
-  
+
   transition: 0.3s;
 }
 

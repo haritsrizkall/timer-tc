@@ -8,15 +8,27 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+
   </head>
   <body>
     <div class="container">
       <section id="timer" style="height: 60vh">
         <div class="d-flex justify-content-center">
-          <div id="time-holder">00:00:00</div>
+          <div id="time-holder">00:03:00</div>
         </div>
-      </section>
-      <section id="controller" style="height: 40vh">
+        <section id="controller" style="height: 40vh">
         <div class="row justify-content-center">
           <div class="col-2 text-center">
             <span class="button-controller">
@@ -48,6 +60,91 @@
           </div>
         </div>
       </section>
+      </section>
+      
+      <div class="row">
+      <div class="col-6">
+       <section id="timer" style="height: 60vh">
+        <div class="d-flex justify-content-center">
+          <div id="time-holder-kiri">00:00:10</div>
+        </div>
+        <section id="controller-kiri" style="height: 40vh">
+        <div class="row justify-content-center">
+          <div class="col-2 text-center">
+            <span class="button-controller">
+              <a id="reset-modal-button-kiri">
+                <i class="fas fa-sync-alt"></i>
+              </a>
+            </span>
+          </div>
+          <div id="play-div-kiri" class="col-2 text-center">
+            <span class="button-controller">
+              <a id="play-button-kiri">
+                <i class="fas fa-play"></i>
+              </a>
+            </span>
+          </div>
+          <div id="pause-div-kiri" class="col-2 text-center">
+            <span class="button-controller">
+              <a id="pause-button-kiri">
+                <i class="fas fa-pause"></i>
+              </a>
+            </span>
+          </div>
+          <div class="col-2 text-center">
+            <span class="button-controller">
+              <a id="edit-modal-button-kiri">
+                <i class="fas fa-edit"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+      </section>
+      </section>
+
+      </div>
+      <div class ="col-6"> 
+       <section id="timer" style="height: 60vh">
+        <div class="d-flex justify-content-center">
+          <div id="time-holder3">00:00:10</div>
+        </div>
+        <section id="controller-kanan" style="height: 40vh">
+        <div class="row justify-content-center">
+          <div class="col-2 text-center">
+            <span class="button-controller">
+              <a id="reset-modal-button">
+                <i class="fas fa-sync-alt"></i>
+              </a>
+            </span>
+          </div>
+          <div id="play-div" class="col-2 text-center">
+            <span class="button-controller">
+              <a id="play-button">
+                <i class="fas fa-play"></i>
+              </a>
+            </span>
+          </div>
+          <div id="pause-div" class="col-2 text-center">
+            <span class="button-controller">
+              <a id="pause-button">
+                <i class="fas fa-pause"></i>
+              </a>
+            </span>
+          </div>
+          <div class="col-2 text-center">
+            <span class="button-controller">
+              <a id="edit-modal-button">
+                <i class="fas fa-edit"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+      </section>
+        </section>
+        </div>
+      
+      </div>
+      
     </div>
 
     <!-- Modal Reset timer -->
